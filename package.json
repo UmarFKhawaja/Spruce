@@ -1,5 +1,5 @@
 {
-  "name": "@khawajaumarfarooq/spruce",
+  "name": "spruce-cli",
   "version": "1.0.0",
   "description": "Updates all packages in all package.json files in a directory structure",
   "author": {
