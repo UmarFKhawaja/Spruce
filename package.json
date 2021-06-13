@@ -1,0 +1,20 @@
+{
+  "name": "@khawajaumarfarooq/spruce",
+  "version": "1.0.0",
+  "description": "Updates all packages in all package.json files in a directory structure",
+  "author": {
+    "name": "Umar Farooq Khawaja",
+    "email": "khawaja.umar.farooq@gmail.com"
+  },
+  "bin": {
+    "spruce": "bin/spruce.js"
+  },
+  "main": "src/index.js",
+  "dependencies": {
+    "commander": "^7.2.0",
+    "latest-version": "^5.1.0",
+    "lodash": "^4.17.21",
+    "semver": "^7.3.5"
+  },
+  "license": "MIT"
+}
