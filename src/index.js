@@ -20,10 +20,9 @@ module.exports = async () => {
 
     program
         .name('spruce')
-        .version(pkg.version)
-        .option('-e, --exclude <file | directory>', 'excludes a file or directory')
-        .option('-h, --help', 'shows the program help')
-        .option('-v, --verbose', 'prints details of program\'s execution')
+        .version(pkg.version, '--version', 'show the program version')
+        .option('-h, --help', 'show the program help')
+        .option('-v, --verbose', 'print details of program\'s execution')
         .command('up')
             .description('change package versions to the latest')
             .action(up);
