@@ -1,6 +1,6 @@
 {
   "name": "spruce-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Updates all packages in all package.json files in a directory structure",
   "author": {
     "name": "Umar Farooq Khawaja",
